@@ -1,0 +1,40 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    background-image: url('https://png.pngtree.com/background/20210715/original/pngtree-pink-beautiful-cherry-blossom-petals-background-picture-image_1326430.jpg');             
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: black;
+}
+
+.h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.button {
+    background-color: rgb(247, 103, 127);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.button a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.button:hover {
+    background-color: rgb(245, 85, 112);
+}
